@@ -1,8 +1,6 @@
 # cardapio_barq
 
-A new Flutter project.
-
-## Getting Started
+## Implementação
 
 This project is a starting point for a Flutter application.
 

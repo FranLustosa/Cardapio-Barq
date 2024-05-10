@@ -95,7 +95,7 @@ class _MyStatefulWidgetState extends State<Login> {
                 ),
                 child: Text(
                   "Acessar Cardápio",
-                  style: TextStyle(fontSize: 20),
+                  style: TextStyle(fontSize: 20, color: Colors.white),
                 ),
               ),
               SizedBox(height: 35),

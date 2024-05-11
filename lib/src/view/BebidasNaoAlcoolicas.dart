@@ -139,4 +139,3 @@ class BebidasNaoAlcoolicasListView extends StatelessWidget {
     );
   }
 }
-//image: AssetImage("assets/images/card${17}.png"),

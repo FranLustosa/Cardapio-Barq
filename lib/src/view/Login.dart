@@ -2,6 +2,7 @@
 
 // ignore_for_file: non_constant_identifier_names, prefer_const_constructors, deprecated_member_use
 
+import 'package:cardapio_barq/src/ui/colors/colors.dart';
 import 'package:flutter/material.dart';
 import 'package:cardapio_barq/src/view/Inicial.dart';
 
@@ -95,7 +96,7 @@ class _MyStatefulWidgetState extends State<Login> {
                 ),
                 child: Text(
                   "Acessar Cardápio",
-                  style: TextStyle(fontSize: 20, color: Colors.white),
+                  style: TextStyle(fontSize: 20, color: ColorSystem.white),
                 ),
               ),
               SizedBox(height: 35),

@@ -2,6 +2,8 @@
 
 // ignore_for_file: prefer_const_constructors, sort_child_properties_last, prefer_const_literals_to_create_immutables
 
+import 'package:cardapio_barq/src/ui/colors/colors.dart';
+import 'package:cardapio_barq/src/view/AppBar.dart';
 import 'package:cardapio_barq/src/view/BebidasNaoAlcoolicas.dart';
 import 'package:flutter/material.dart';
 import 'package:cardapio_barq/src/view/BebidasAlcoolicas.dart';
@@ -18,7 +20,6 @@ class Inicial extends StatefulWidget {
 }
 
 class _MyStatefulWidgetState extends State<Inicial> {
-  // bottom navigation
   int _currentIndex = 0;
 
   void _onTap(int index) {
@@ -30,18 +31,7 @@ class _MyStatefulWidgetState extends State<Inicial> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Color(0xFF00265F),
-        centerTitle: true,
-        title: Text("BARQ"),
-        automaticallyImplyLeading: false,
-        actions: [
-          IconButton(
-            icon: Icon(Icons.shopping_cart),
-            onPressed: () {},
-          ),
-        ],
-      ),
+      appBar: MyAppBar(),
       bottomNavigationBar: MyBottomNavigationBar(
         currentIndex: _currentIndex,
         onTap: _onTap,

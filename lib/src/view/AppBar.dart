@@ -15,9 +15,12 @@ class MyAppBar extends StatelessWidget implements PreferredSizeWidget {
   Widget build(BuildContext context) {
     return AppBar(
       backgroundColor: ColorSystem.primaryColor,
+      iconTheme: IconThemeData(
+        color: ColorSystem.white, //change your color here
+      ),
       centerTitle: true,
       title: Text("BARQ", style: TextStyle(color: ColorSystem.white)),
-      automaticallyImplyLeading: false,
+      automaticallyImplyLeading: true,
       actions: [
         IconButton(
           icon: Icon(Icons.shopping_cart),

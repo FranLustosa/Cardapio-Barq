@@ -3,6 +3,7 @@
 
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
+import 'package:cardapio_barq/src/view/AppBar.dart';
 import 'package:flutter/material.dart';
 import 'package:cardapio_barq/src/view/VisualizandoBebida.dart';
 
@@ -26,22 +27,7 @@ class _MyStatefulWidgetState extends State<VerOfertas> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Color(0xFF00265F),
-        centerTitle: true,
-        title: Text("BARQ"),
-        actions: [
-          IconButton(
-            icon: Icon(Icons.shopping_cart),
-            onPressed: () {
-              Navigator.of(context).push(MaterialPageRoute(
-                  builder: (context) => CarrinhoDeCompras(
-                        itens: [],
-                      )));
-            },
-          ),
-        ],
-      ),
+      appBar: MyAppBar(),
       bottomNavigationBar: MyBottomNavigationBar(
         currentIndex: _currentIndex,
         onTap: _onTap,

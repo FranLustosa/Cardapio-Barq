@@ -31,7 +31,8 @@ class _MyStatefulWidgetState extends State<Inicial> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: MyAppBar(),
+      appBar: MyAppBar(
+      ),
       bottomNavigationBar: MyBottomNavigationBar(
         currentIndex: _currentIndex,
         onTap: _onTap,

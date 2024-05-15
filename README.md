@@ -14,7 +14,9 @@ Barq é uma solução moderna e prática para restaurantes, bares e cafés que d
 - Flutter: Framework da Google para a criação de interfaces de usuário nativas de alta performance para iOS e Android.
 
 ## Como começar
-Clone o repositório e navegue até o diretório do projeto. Instale as dependências (flutter pub get) e Execute o aplicativo (flutter run ou flutter run -d chrome).
+- Clone o repositório e navegue até o diretório do projeto.
+- Instale as dependências (flutter pub get)
+- Execute o aplicativo (flutter run ou flutter run -d chrome).
 
 
 

@@ -14,7 +14,7 @@ Dart: Linguagem de programação otimizada para desenvolvimento de aplicativos m
 Flutter: Framework da Google para a criação de interfaces de usuário nativas de alta performance para iOS e Android.
 
 ## Como começar
-Clone o repositório:
+######Clone o repositório
 Navegue até o diretório do projeto:
 Instale as dependências: flutter pub get
 Execute o aplicativo: flutter run ou flutter run -d chrome
